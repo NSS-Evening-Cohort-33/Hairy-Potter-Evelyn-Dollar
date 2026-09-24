@@ -7,6 +7,7 @@ export const PotteryList = () => {
     let html = ""
 
     potteryToSell.map((pottery) => {
+        
         html += `
 
 <section class="pottery" id="pottery--${pottery.id}">
